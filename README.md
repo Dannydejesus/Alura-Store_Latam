@@ -1,2 +1,2 @@
-# Alura-Store_Latam
+# Alura_Store_Latam
 Challenge Alura Store
