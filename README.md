@@ -1,7 +1,3 @@
-¡Por supuesto, Danny! Aquí tienes el contenido de tu informe ajustado con emojis y cuadros, manteniendo el diseño profesional y atractivo:
-
----
-
 # 📊 **Informe de Análisis - Alura Store Latam**
 
 Este documento presenta un análisis detallado del desempeño de las cuatro tiendas de la cadena **Alura Store**, con el propósito de identificar cuál tienda debería ser vendida para liberar recursos destinados a un nuevo emprendimiento. El análisis incluye indicadores clave como **facturación, ventas por categoría, calificaciones de clientes y costos logísticos**.
