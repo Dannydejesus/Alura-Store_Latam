@@ -13,8 +13,7 @@ Este proyecto presenta un análisis detallado del desempeño de las cuatro tiend
 6. [Estructura del Proyecto](#estructura-del-proyecto)
 7. [Análisis Detallado](#análisis-detallado)
 8. [Conclusión y Recomendación](#conclusión-y-recomendación)
-9. [Próximos Pasos](#próximos-pasos)
-10. [Contacto](#contacto)
+9. [Contacto](#contacto)
 
 ---
 
