@@ -18,7 +18,7 @@ Este proyecto presenta un análisis detallado del desempeño de las cuatro tiend
 ---
 
 ## Descripción
-El objetivo de este análisis es evaluar el desempeño de las tiendas de **Alura Store** para ayudar al **Sr. Juan** a decidir cuál tienda vender y destinar los recursos hacia un nuevo emprendimiento. El enfoque incluye:
+El objetivo de este análisis es evaluar el desempeño de las tiendas de **Alura Store** para ayudar a mi cliente el **Sr. Juan** a decidir cuál tienda vender y destinar los recursos hacia un nuevo emprendimiento. El enfoque incluye:
 - Comparación de indicadores clave como facturación, volumen de ventas y satisfacción del cliente.
 - Uso de gráficos y visualizaciones para identificar patrones y tomar decisiones fundamentadas.
 
@@ -136,6 +136,6 @@ AluraStoreLatam/
 ---
 
 ## Contacto  
-- **Autor:** Danny  
+- **Autor:** Danny Gonzalez
 - **Email:** dannyg260580@hotmail.com  
 - **Linkedin:** https://www.linkedin.com/in/danny-gonz%C3%A1lez-352744244/  
