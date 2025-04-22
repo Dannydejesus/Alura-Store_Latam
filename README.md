@@ -1,76 +1,49 @@
-# Informe de Análisis - Alura Store Latam
+# 📊 Informe de Análisis: Alura Store Latam
 
-Este documento presenta un análisis detallado del desempeño de las cuatro tiendas de la cadena Alura Store, con el propósito de identificar cuál tienda debería ser vendida para liberar recursos destinados a un nuevo emprendimiento. El análisis incluye indicadores clave como facturación, ventas por categoría, calificaciones de clientes y costos logísticos.
-
----
-
-## **Resumen Ejecutivo**
-Después de analizar los datos disponibles, la **Tienda 4** se identifica como la menos eficiente en términos de facturación, desempeño en ventas y otros indicadores clave. Se recomienda considerar su venta para maximizar la rentabilidad global y facilitar nuevas inversiones.
-
----
-
-## **Análisis Detallado**
-
-### 1. **Facturación Total**
-- **Tienda 1:** $1,150,880,400.00 (la más alta).
-- **Tienda 2:** $1,116,343,500.00.
-- **Tienda 3:** $1,098,019,600.00.
-- **Tienda 4:** $1,038,375,700.00 (112 millones menos que la Tienda 1).
-
-📝 **Observación:** La Tienda 4 presenta la facturación más baja, destacándose como la menos rentable de la cadena.
+## 📌 Resumen Ejecutivo
+**Recomendación:** Vender **Tienda 4**  
+**Razones principales:**
+- 🔻 **Menor facturación** ($1,038M frente a $1,150M de Tienda 1).  
+- 📉 **Bajo volumen en categorías clave**, como muebles e instrumentos musicales.  
+- 🚚 **Costos logísticos reducidos** (indican menor actividad).  
+- ⭐ **Calificación promedio decente pero no sobresaliente** (4.0/5.0).  
 
 ---
 
-### 2. **Ventas por Categoría**
-- **Categoría más vendida:** "Muebles" en todas las tiendas.
-  - Tienda 4: 480 unidades (vs. 499 de la Tienda 3, líder).
-- **Categoría menos vendida:** "Instrumentos musicales" en la Tienda 4 con 170 unidades.
+## 🔍 Análisis Comparativo
 
-📝 **Observación:** Aunque las categorías líderes son similares, la Tienda 4 tiene un volumen menor en general.
+### 💰 **Facturación Total (USD)**  
+| Tienda      | Monto           | Diferencia vs Tienda 1 |
+|-------------|-----------------|------------------------|
+| 🥇 **Tienda 1** | $1,150,880,400 | -                      |
+| 🥈 **Tienda 2** | $1,116,343,500 | -$34,5 millones         |
+| 🥉 **Tienda 3** | $1,098,019,600 | -$52,8 millones         |
+| **Tienda 4**   | $1,038,375,700 | -$112,5 millones        |
 
----
-
-### 3. **Calificación Promedio de Clientes**
-- **Tienda 3:** 4.05 ⭐ (mejor calificada).
-- **Tienda 2:** 4.04 ⭐.
-- **Tienda 4:** 4.0 ⭐.
-- **Tienda 1:** 3.98 ⭐.
-
-📝 **Observación:** Aunque aceptable, la Tienda 4 no sobresale respecto a las demás en términos de satisfacción del cliente.
+📌 **Observación:** La Tienda 4 genera **9.8% menos ingresos** que la tienda líder, **Tienda 1**.
 
 ---
 
-### 4. **Costo Promedio de Envío**
-- **Tienda 1:** $26,018.61.
-- **Tienda 2:** $25,216.24.
-- **Tienda 3:** $24,805.68.
-- **Tienda 4:** $23,459.46 (el costo más bajo).
+### 🛍️ **Desempeño Comercial**  
+**Categoría estrella (en todas las tiendas):** 🪑 **Muebles**  
+- **Tienda 3:** 499 unidades (mejor desempeño).  
+- **Tienda 4:** 480 unidades.  
 
-📝 **Observación:** Los costos más bajos de la Tienda 4 podrían reflejar un menor volumen de ventas o un enfoque más local en los envíos.
+**Categoría más débil (Tienda 4):** 🎵 **Instrumentos musicales** con solo 170 ventas.
 
----
-
-## **Conclusión y Recomendación Final**
-
-**Recomendación: Vender la Tienda 4.**
-- Factura menos y no destaca en indicadores clave como ventas o calificaciones.
-- Liberar los recursos de esta tienda permitirá reinvertir en un nuevo emprendimiento o mejorar las otras unidades más rentables.
-
-### **Acciones sugeridas:**
-1. Proceder con la venta de la Tienda 4.
-2. Reasignar los recursos obtenidos para:
-   - Potenciar las Tiendas 1, 2 y 3.
-   - Invertir en nuevas oportunidades de negocio.
+📌 **Observación:** Aunque las categorías líderes son consistentes en todas las tiendas, **Tienda 4** tiene un menor volumen general de ventas.
 
 ---
 
-## **Próximos Pasos**
-Si necesita realizar análisis adicionales o desea explorar estrategias para las tiendas restantes, no dude en solicitar asistencia. El informe y sus conclusiones están respaldados por datos analíticos y visualizaciones claras.
+### ⭐ **Satisfacción del Cliente**  
+Calificaciones promedio (escala de 5★):  
+```python
+calificaciones = {
+    "Tienda 3": 4.05,
+    "Tienda 2": 4.04,
+    "Tienda 4": 4.00,
+    "Tienda 1": 3.98
+}
 
----
-
-👤 **Autor del Análisis:**  
-📧 **Contacto:** tu_correo@ejemplo.com  
-🔗 **Repositorio GitHub:** [TuRepositorio](https://github.com/tuusuario/turepositorio)
 
 
