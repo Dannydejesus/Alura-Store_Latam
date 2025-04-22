@@ -1,130 +1,142 @@
-# 📊 Análisis de Datos: Alura Store Latam
+# 📊 Informe de Análisis - Alura Store Latam
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-orange)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5%2B-blueviolet)
-![License](https://img.shields.io/badge/License-MIT-green)
+Este proyecto presenta un análisis detallado del desempeño de las cuatro tiendas de la cadena **Alura Store**, con el propósito de identificar cuál tienda debería ser vendida para liberar recursos destinados a un nuevo emprendimiento. Incluye indicadores clave como **facturación, ventas por categoría, calificaciones de clientes y costos logísticos**, respaldados por visualizaciones claras y concisas.
 
-Análisis completo de datos de ventas para Alura Store en Latinoamérica, incluyendo facturación por tienda, categorías de productos, calificaciones y costos de envío.
+---
 
 ## 📌 Tabla de Contenidos
-- [Objetivo](#-objetivo)
-- [Datos](#-datos)
-- [Análisis Realizados](#-análisis-realizados)
-- [Resultados Clave](#-resultados-clave)
-- [Visualizaciones](#-visualizaciones)
-- [Requisitos](#-requisitos)
-- [Instalación](#-instalación)
-- [Uso](#-uso)
-- [Licencia](#-licencia)
+1. [Descripción](#descripción)
+2. [Características](#características)
+3. [Tecnologías Utilizadas](#tecnologías-utilizadas)
+4. [Instalación](#instalación)
+5. [Uso](#uso)
+6. [Estructura del Proyecto](#estructura-del-proyecto)
+7. [Análisis Detallado](#análisis-detallado)
+8. [Conclusión y Recomendación](#conclusión-y-recomendación)
+9. [Próximos Pasos](#próximos-pasos)
+10. [Contacto](#contacto)
 
-## 🎯 Objetivo
-Analizar el desempeño de 4 tiendas de Alura Store en Latinoamérica para identificar:
-- Facturación por tienda
-- Categorías de productos más populares
-- Calificaciones promedio
-- Costos de envío
-- Productos más y menos vendidos
+---
 
-## 📂 Datos
-Los datos se obtuvieron de 4 archivos CSV públicos:
-```python
-tienda_1.csv
-tienda_2.csv
-tienda_3.csv
-tienda_4.csv
+## Descripción
+El objetivo de este análisis es evaluar el desempeño de las tiendas de **Alura Store** para ayudar al **Sr. Juan** a decidir cuál tienda vender y destinar los recursos hacia un nuevo emprendimiento. El enfoque incluye:
+- Comparación de indicadores clave como facturación, volumen de ventas y satisfacción del cliente.
+- Uso de gráficos y visualizaciones para identificar patrones y tomar decisiones fundamentadas.
+
+---
+
+## Características
+- 🔻 **Identificación de la tienda menos eficiente.**
+- 📊 **Visualización de datos** con gráficos claros y llamativos.
+- 🛍️ **Comparación por categoría de productos.**
+- ⭐ **Análisis de satisfacción del cliente.**
+- 🚚 **Evaluación de costos logísticos.**
+
+---
+
+## Tecnologías Utilizadas
+- **Python 3.x**  
+- **Pandas:** Para manipulación y análisis de datos.  
+- **Matplotlib:** Creación de gráficos claros y funcionales.  
+- **Seaborn:** Visualizaciones avanzadas para análisis estadístico.
+
+---
+
+## Instalación
+Sigue estos pasos para ejecutar el proyecto en tu entorno:
+
+1. Clona este repositorio:  
+   ```bash
+   git clone https://github.com/tu_usuario/tu_repositorio.git
+   cd tu_repositorio
+   ```
+2. Crea y activa un entorno virtual (opcional):  
+   ```bash
+   python -m venv env
+   source env/bin/activate  # En Linux/Mac
+   env\Scripts\activate  # En Windows
+   ```
+3. Instala las dependencias necesarias:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## Uso
+1. Ejecuta el análisis principal:  
+   ```bash
+   python main.py
+   ```
+2. Revisa las visualizaciones generadas en la carpeta `output/`.
+3. Consulta los gráficos y tablas en los notebooks de la carpeta `notebooks/`.
+
+---
+
+## Estructura del Proyecto
+```
+AluraStoreLatam/
+├── data/            # Datos en bruto y procesados
+├── notebooks/       # Jupyter Notebooks con análisis detallado
+├── src/             # Scripts del proyecto
+│   ├── data_processing.py  # Limpieza y preprocesamiento de datos
+│   ├── visualization.py    # Gráficos y visualizaciones
+├── README.md        # Documentación del proyecto
+├── requirements.txt # Dependencias del proyecto
+├── main.py          # Script principal para ejecutar el análisis
 ```
 
-Contienen información sobre:
-- Productos y categorías
-- Precios y costos de envío
-- Fechas de compra
-- Vendedores
-- Ubicaciones (lat/lon)
-- Métodos de pago
-- Calificaciones
+---
 
-## 🔍 Análisis Realizados
-1. **Facturación por tienda**
-   - Cálculo del ingreso total por tienda
-   - Identificación de la tienda con mayor facturación
+## Análisis Detallado
 
-2. **Ventas por categoría**
-   - Conteo de productos vendidos por categoría
-   - Identificación de categorías más populares
+### 💰 Facturación Total (USD)  
+| 🏆 Tienda       | 💵 Facturación       | 📉 Diferencia vs Tienda 1   |
+|-----------------|---------------------|----------------------------|
+| 🥇 **Tienda 1** | $1,150,880,400.00   | -                          |
+| 🥈 **Tienda 2** | $1,116,343,500.00   | -$34.5 millones            |
+| 🥉 **Tienda 3** | $1,098,019,600.00   | -$52.8 millones            |
+| ❌ **Tienda 4** | $1,038,375,700.00   | -$112.5 millones           |
 
-3. **Calificaciones promedio**
-   - Cálculo del promedio de satisfacción del cliente
+📌 **Observación:** La **Tienda 4 genera 9.8% menos ingresos** que la Tienda 1, siendo la menos rentable.
 
-4. **Productos más/menos valorados**
-   - Identificación de categorías con mayor/menor volumen de ventas
+### 🛍️ Ventas por Categoría  
+**Categoría más vendida en todas las tiendas:** 🪑 **Muebles**
 
-5. **Costos de envío**
-   - Cálculo del costo promedio de envío por tienda
+| 🛒 **Tienda**   | 📦 **Unidades Vendidas** |
+|-----------------|--------------------------|
+| 🥇 **Tienda 3** | 499 unidades (mejor desempeño) |
+| ❌ **Tienda 4** | 480 unidades             |
 
-6. **Visualizaciones**
-   - Gráficos de barras para facturación
-   - Gráficos horizontales por categoría
-   - Gráficos de pastel para calificaciones
+**Categoría más débil en Tienda 4:** 🎵 **Instrumentos Musicales**: solo **170 unidades vendidas**.
 
-## 📊 Resultados Clave
-### Facturación Total
-| Tienda | Facturación |
-|--------|-------------|
-| Tienda 1 | $1,150,880,400.00 |
-| Tienda 2 | $1,116,343,500.00 |
-| Tienda 3 | $1,098,019,600.00 |
-| Tienda 4 | $1,038,375,700.00 |
+### ⭐ Calificación Promedio de Clientes  
+| 🏆 **Tienda**   | ⭐ **Calificación Promedio** |
+|-----------------|-----------------------------|
+| 🥇 **Tienda 3** | 4.05                        |
+| 🥈 **Tienda 2** | 4.04                        |
+| ❌ **Tienda 4** | 4.00                        |
+| 🥉 **Tienda 1** | 3.98                        |
 
-**La tienda con mayor facturación fue Tienda 1**
+### 🚚 Costo Promedio de Envío (USD)  
+| 🏆 **Tienda**   | 🚛 **Costo Promedio**       |
+|-----------------|----------------------------|
+| 🥇 **Tienda 4** | $23,459.46 (el más bajo)   |
+| 🥈 **Tienda 3** | $24,805.68                 |
+| 🥉 **Tienda 2** | $25,216.24                 |
+| ❌ **Tienda 1** | $26,018.61                 |
 
-### Categorías Más Populares
-En todas las tiendas, **Muebles** fue la categoría más vendida:
-- Tienda 1: 465 ventas
-- Tienda 2: 442 ventas
-- Tienda 3: 499 ventas
-- Tienda 4: 480 ventas
+---
 
-### Calificaciones Promedio
-| Tienda | Calificación Promedio |
-|--------|-----------------------|
-| Tienda 1 | 3.98 |
-| Tienda 2 | 4.04 |
-| Tienda 3 | 4.05 |
-| Tienda 4 | 4.00 |
+## ✅ Conclusión y Recomendación Final  
 
-**Tienda 3 obtuvo la mejor calificación promedio (4.05)**
+- Proceder con la **venta de la Tienda 4**.  
+- Liberar recursos para invertir en las tiendas más eficientes o iniciar un nuevo proyecto empresarial.  
+- Las Tiendas 1, 2 y 3 tienen mejor desempeño y potencial de crecimiento.
 
-## 📈 Visualizaciones
-El proyecto incluye visualizaciones interactivas con Matplotlib:
-1. Facturación total por tienda (gráfico de barras)
-2. Distribución de categorías por tienda (gráficos horizontales)
-3. Costo promedio de envío (gráfico de barras horizontales)
-4. Calificaciones promedio (gráfico de pastel)
+---
 
-## ⚙️ Requisitos
-- Python 3.8+
-- Pandas 1.3+
-- Matplotlib 3.5+
-- Jupyter Notebook (opcional)
-
-## 💻 Instalación
-```bash
-git clone https://github.com/tu-usuario/alura-store-analysis.git
-cd alura-store-analysis
-pip install -r requirements.txt
-```
-
-## 🚀 Uso
-Ejecutar en Jupyter Notebook o directamente con Python:
-```python
-python alura_store_analysis.py
-```
-
-## 📜 Licencia
-Este proyecto está bajo la licencia MIT. Ver [LICENSE](LICENSE) para más detalles.
-
-## 📧 Contacto
-Para preguntas o colaboraciones:
-- Email: tu-email@dominio.com
-- LinkedIn: [Tu Nombre](https://linkedin.com/in/tu-perfil)
+## Contacto  
+- **Autor:** Danny  
+- **Email:** dannyg260580@hotmail.com  
+- **Linkedin:** https://www.linkedin.com/in/danny-gonz%C3%A1lez-352744244/  
